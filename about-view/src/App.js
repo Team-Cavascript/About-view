@@ -1,10 +1,11 @@
 import "./App.css";
 import LoginPage from "./Login/LoginPage";
+import Header from './component/Header/Header'
 
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header"></header> */}
+      <Header onLogin={true} userName="Yasmin"/>
       <LoginPage />
     </div>
   );
