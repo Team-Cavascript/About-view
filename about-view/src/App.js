@@ -1,11 +1,12 @@
 import "./App.css";
-import LoginPage from "./Login/LoginPage";
+import { LoginView } from "./view";
+import { Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       {/* <header className="App-header"></header> */}
-      <LoginPage />
+      <Route exact path="/" component={LoginView} />
     </div>
   );
 }
