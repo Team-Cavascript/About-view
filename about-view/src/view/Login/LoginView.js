@@ -1,6 +1,6 @@
 import React from "react";
-import "./LoginPage.css";
-const LoginPage = () => {
+import "./LoginView.css";
+const LoginView = () => {
   return (
     <div className="login-page">
       <p className="login-page-title">About</p>
@@ -15,4 +15,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default LoginView;
